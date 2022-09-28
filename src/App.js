@@ -1,13 +1,15 @@
 
 import './App.css';
-import Login from './components/login';
-import Register from './components/register';
+// import Login from './components/login';
+import Profile from './components/profile';
+// import Register from './components/register';
 
 function App() {
   return (
     <div className="App">
-      <Register/>
-      <Login />
+      {/* <Register/>
+      <Login /> */}
+      <Profile/>
     </div>
   );
 }

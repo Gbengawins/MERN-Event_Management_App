@@ -22,7 +22,7 @@ export default class Profile extends Component {
     
     render () {
         if (this.state.redirect) {
-            return <Navigate to={this.state.navigate} />
+            return <Navigate to={this.state.redirect} />
         }
 
         const { currentUser } = this.state;
