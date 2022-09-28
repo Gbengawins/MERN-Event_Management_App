@@ -5,6 +5,7 @@ import CheckButton from "react-validation/build/button";
 import { isEmail } from "validator";
 
 import authService from "../services/authService";
+import Avatar from "./assets/Avatar.png";
 
 const required = (value) => {
   if (!value) {
@@ -120,7 +121,7 @@ export default class Register extends Component {
         className="col-md-12" >
         <div className="card card-container">
           <img
-            src="./assets/Avatar.png"
+            src={Avatar}
             className="profile-img-card"
             alt="profile-img"
           />

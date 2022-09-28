@@ -6,6 +6,8 @@ import CheckButton from "react-validation/build/button";
 import AuthService from "../services/authService";
 
 import { withRouter } from "../common/withRouter";
+import Avatar from "./assets/Avatar.png";
+
 
 const required = (value) => {
   if (!value) {
@@ -92,7 +94,7 @@ class Login extends Component {
             
           >
             <img
-              src="../assets/Avatar.jpg"
+              src={Avatar}
               alt="profile-img"
               className="profile-img-card"
             //   style={{
