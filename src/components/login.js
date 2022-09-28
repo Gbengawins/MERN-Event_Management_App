@@ -84,59 +84,27 @@ class Login extends Component {
   render() {
     return (
       <div
-        className="col-md-12"
-        style={{
-          height: "100%",
-          width: "100%",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-            marginTop: "100px",
-        }}
-      >
+        className="col-md-12" >
         <div
-          className="card card-container"
-          style={{
-            height: "40%",
-            width: "30%",
-            padding: "20px",
-            display: "flex",
-            flexDirection: "column",
-            alignContent: "center",
-            justifyContent: "center",
-            boxShadow: "3px 5px 12px rgba(0, 0, 0, 0.2)",
-            backgroundColor: "white",
-          }}
-        >
+          className="card card-container">
           <div
             className="form-group image-container"
-            style={{
-              height: "150px",
-              width: "150px",
-            //   border: "1px solid black",
-            //   borderRadius: "50%",
-            //   display: "flex",
-            //   alignItems: "center",
-            //   justifyContent: "center",
-            //   // marginLeft: "200px",
-            //   backgroundColor: "blue",
-            }}
+            
           >
             <img
               src="../assets/Avatar.jpg"
               alt="profile-img"
               className="profile-img-card"
-              style={{
-                height: "150px",
-                width: "150px",
-                border: "1px solid black",
-                borderRadius: "50%",
-                display: "flex",
-                alignContent: "center",
-                justifyContent: "center",
-                marginLeft: "200px",
-              }}
+            //   style={{
+            //     height: "150px",
+            //     width: "150px",
+            //     border: "1px solid black",
+            //     borderRadius: "50%",
+            //     display: "flex",
+            //     alignContent: "center",
+            //     justifyContent: "center",
+            //     marginLeft: "200px",
+            //   }}
             />
           </div>
           <br />
